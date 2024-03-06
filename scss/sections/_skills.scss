@@ -1,0 +1,23 @@
+.skills {
+
+    &_title {
+        text-align: center;
+        margin-bottom: 60rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        letter-spacing: 0.02rem;
+    }
+
+    &_row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32rem;
+    }
+
+    &_grid {
+        flex: 0 1 calc((100% - 32rem * 2)/3);
+        border-radius: 0.1rem;
+        background: var(--rellenos);
+        padding: 24rem;
+    }
+}
